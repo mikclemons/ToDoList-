@@ -14,10 +14,14 @@ public class ToDoList {
     }
 
     public void deleteItem(){
-
+        for(int i = toDoListItems.length - 1; i < -1; i ++){
+            if(toDoListItems[i] != null){
+                toDoListItems = null;
+            }
+        }
     }
 
-    public void editItem(){
+    public void editItem(ToDoListItem item){
 
     }
 
