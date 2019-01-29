@@ -26,6 +26,6 @@ public class ToDoList {
     }
 
     public ToDoListItem[] getItemsByState(){
-        
+
     }
 }
