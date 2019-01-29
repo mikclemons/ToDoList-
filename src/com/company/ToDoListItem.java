@@ -5,6 +5,7 @@ public class ToDoListItem {
     private String description;
     private String state;
 
+
     public ToDoListItem(String description, String state){
         this.description = description;
         this.state = state;
@@ -25,5 +26,6 @@ public class ToDoListItem {
     public String getState(){
         return state;
     }
+
 
 }
