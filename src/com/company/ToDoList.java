@@ -21,15 +21,11 @@ public class ToDoList {
         }
     }
 
-    public void editItem(ToDoListItem item){
-
+    public ToDoListItem[] getItems(){
+        return this.toDoListItems;
     }
 
-    public ToDoListItem getItems(){
-
-    }
-
-    public ToDoListItem getItemsByState(){
-
+    public ToDoListItem[] getItemsByState(){
+        
     }
 }
